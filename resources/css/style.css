@@ -1,0 +1,32 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+header{
+	background-color: black;
+	display: flex;
+	flex-grow: 1;
+	border-bottom: white 1px solid;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav a {
+	color: white;
+	padding: 0 10px;
+	font-size: 20px;
+}
+
+.mission {
+	background-image: url(../images/img-mission-background.jpg);
+	height: 800px;
+	width: 1200px;
+	display: flex;
+	
+}
+
+.body {
+	margin: auto;
+	padding:0 300px;
+}
