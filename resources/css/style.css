@@ -65,8 +65,9 @@ header{
 }
 
 .fig img {
-	height: 150px;
-	width: 250px;
+	height: 200px;
+	width: 300px;
+	margin: 0 -25px;
 }
 
 .tea-pics {
