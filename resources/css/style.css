@@ -7,15 +7,18 @@ body{
 header{
 	background-color: black;
 	display: flex;
-	flex-grow: 1;
 	border-bottom: white 1px solid;
 	justify-content: space-between;
 	align-items: center;
+	position: fixed;
+	width: 1900px;
+	padding: 20px 0 10px;
+	margin-top: -10px;
 }
 
 .nav a {
 	color: white;
-	padding: 0 10px;
+	padding: 0 15px;
 	font-size: 20px;
 }
 
@@ -58,6 +61,7 @@ header{
 	width: 1200px;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 50px;
 }
 
 .fig img {
@@ -101,6 +105,7 @@ header{
 	display: flex;
 	width: 1000px;
 	justify-content: space-between;
+	
 }
 
 .similar {
@@ -129,3 +134,23 @@ header{
 	padding-top: 0px;
 }
 
+.contact {
+	text-align: center;
+}
+
+.contact h4 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.contact p {
+	font-size: 12px;
+	padding-top: 10px;
+	
+}
+
+footer {
+	font-size: 12px;
+}
