@@ -52,3 +52,80 @@ header{
 .mission-statement p {
 	margin-top: -20px;
 }
+
+.Tea {
+	display: flex;
+	width: 1200px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.fig img {
+	height: 150px;
+	width: 250px;
+}
+
+.tea-pics {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.fig figcaption {
+	padding-top: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.Tea h4 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+.Tea p {
+	font-weight: bold;
+	margin-top: -10px;
+}
+
+.locations {
+	background-image: url(../images/img-locations-background.jpg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1200px;
+	height: 600px;
+}
+
+.squares {
+	display: flex;
+	width: 1000px;
+	justify-content: space-between;
+}
+
+.similar {
+	background-color: black;
+	height: 250px;
+	width: 300px;
+	text-align: center;
+}
+
+.similar h5 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.similar p {
+	padding-top: 20px;
+}
+
+.locations h4 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+.similar span p {
+	padding-top: 0px;
+}
+
