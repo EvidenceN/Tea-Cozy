@@ -1,6 +1,7 @@
 body{
 	background-color: black;
 	color: white;
+	font-family: verdana;
 }
 
 header{
@@ -23,10 +24,31 @@ header{
 	height: 800px;
 	width: 1200px;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	
 }
 
 .body {
 	margin: auto;
 	padding:0 300px;
+}
+
+.mission-statement {
+	background-color: black;
+	height: 90px;
+	font-weight: bold;
+	text-align: center;
+	width: 1200px;
+	
+	
+}
+
+.mission-statement h4 {
+	font-size: 30px;
+	margin-top: 5px;
+}
+
+.mission-statement p {
+	margin-top: -20px;
 }
